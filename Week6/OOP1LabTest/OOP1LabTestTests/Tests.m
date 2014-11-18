@@ -10,7 +10,6 @@
 // 1: Control Flow
 
 SPEC_BEGIN(ControlFlowSpec)
-
 describe(@"ControlFlow", ^{
   
   it(@"ifTest: should return the string 'Fizz' if x == true/YES, and 'Buzz' if x == false/NO", ^{
@@ -36,6 +35,7 @@ describe(@"ControlFlow", ^{
     [[theValue([ControlFlow whileTest:32]) should] equal:theValue(5)];
   });
 });
+
 
 SPEC_END
 
